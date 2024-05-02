@@ -51,12 +51,12 @@ class User
 
 class UserLogins : MyArray<string>
 {
-    // Здесь можно добавить специфичные методы для работы с логинами
+ 
 }
 
 class UserPasswords : MyArray<string>
 {
-    // Здесь можно добавить специфичные методы для работы с паролями
+  
 }
 
 class Program
@@ -74,7 +74,5 @@ class Program
 
         logins.Add(login);
         passwords.Add(password);
-
-        // ... (дальнейшая работа с логинами и паролями) ...
     }
 }
