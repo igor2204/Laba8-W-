@@ -66,7 +66,6 @@ class Program
         UserLogins logins = new UserLogins();
         UserPasswords passwords = new UserPasswords();
 
-        // Регистрация пользователя
         Console.Write("Введите логин: ");
         string login = Console.ReadLine();
         Console.Write("Введите пароль: ");
@@ -74,5 +73,6 @@ class Program
 
         logins.Add(login);
         passwords.Add(password);
+
     }
 }
